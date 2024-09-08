@@ -7,9 +7,20 @@
     </head>
 <body>
     <h1>Michael Castaneda</h1>
-    <h2>Journey To The Center of The Internet</h2>
-    <h3>September 5 2024</h3>
-    <h4>What are the 3 parts of an HTML element?</h4>
+    <h2>Journey To The Center of The Internet: My Unequivical Attempt At Learning Web Development</h2>
+    <h3>Beginning Date: September 5 2024</h3>
+    <p><em>Current Logged </br>Time</em></p>
+    <h3 id="datetime"></h3>
+
+    <script>
+    // Get current date and time
+    var now = new Date();
+    var datetime = now.toLocaleString();
+
+    // Insert date and time into HTML
+    document.getElementById("datetime").innerHTML = datetime;
+    </script>
+    <h4><div class="lesson-title">Lesson 1: introduction to HTML</div> </br> What are the 3 parts of an HTML element?</h4>
     <ol>
         <li>opening tag &lt;x&gt; </li>
         <li><strong>content<em>(like this)</em></strong></li>
@@ -21,5 +32,6 @@
         <li>&lt;/img&gt;</li><p>In this case the "/" may be omitted</p>
         <li>&lt;img&gt;</li><p>This would effectively bare the same results</p>
     </ul>
+
 </body>
 </html>
