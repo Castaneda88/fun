@@ -62,5 +62,84 @@
     </section>
     <h4>The Relationships Between Nested Elements</h4>
     <h4>How to Create HTML Comments</h4>
+    <div class="part-1"> 
+        <h4><div class="lesson-title">Lesson 1: introduction to HTML</div> </br> What are the 3 parts of an HTML element?</h4>
+        <ol>
+            <li>opening tag &lt;x&gt; </li>
+            <li><strong>content<em>(like this)</em></strong></li>
+            <li>end tag also known as closing tag e.g. &lt;/x&gt;</li>
+        </ol>
+        <h4> What Is A Void Element?</h4>
+        <p>A void element is also known as a self closing tag <em>i.g.</em></p>
+        <ul>
+            <li>&lt;/img&gt;</li><p>In this case the "/" may be omitted</p>
+            <li>&lt;img&gt;</li><p>This would effectively bare the same results</p>
+        </ul>
+        <h4>How To Create Paragraphs</h4>
+        <section>
+            <p>In order to have paragraphs be formatted propperly, use the &lt;p&gt; and &lt;/p&gt; closing tags. This will allow there to be linebreaks between one paragraph of content and the next.</p>
+            <p>We can see that any text inside the <mark>&lt;p&gt; and &lt;/p&gt; </mark>tags are also wrapping, and take the shape of the area assigned. If no area is assigned, the paragraph takes the width of the browser window.</p>
+        </section>
+        <h4>How To Create Headings</h4>
+        <section>
+            <p>There are headers that range between &lt;h1&gt; to &lt;h6&gt;.</p>
+            <h1>Header 1 (h1)</h1>
+            <h2>Header 2 (h2)</h2>
+            <h3>Header 3 (h3)</h3>
+            <h4>Header 4 (h4)</h4>
+            <h5>Header 5 (h5)</h5>
+            <h6>header 6 (h6)</h6>
+        </section>
+        <section>
+            <p>Notice headers are pronounced with bold and unique attributes. By default, headers are read by browsers differently than paragraphs. They automatically inheret their own size and weight.</p>
+        </section>
+        <h4>How To Create Bold Text</h4>
+    <section>
+        <p><strong>Bold</strong> text is accomlished using the <mark>&lt;strong&gt;<strong>text content</strong>&lt;/strong&gt;</mark></p>
+        <p>The &lt;strong&gt; element also effects screen readers to denote the specified text is important, indicating to screen readers of the texts importance, changing the readers tone of voice.</p>
+        <p>&lt;strong&gt; doesnt require any other elements to take its effect on a desired text, however, it will typically be used alongside other elements.</p>
+    </section>
+    <h4>How To Create Italicized Text</h4>
+    <section>
+        <p>to <em>italicize</em> text, we <mark>emphasize</mark> it using <mark>&lt;em&gt;</mark><em>emphasized content</em><mark>&lt;/em&gt;</mark>. The &lt;em&gt; element also effects text that is read by a screenreader, giving "emphasis" to given text.</p>
+    </section>
+        <h4>The Relationships Between Nested Elements</h4>
+        <section>
+            <em><p>Parents, children, and grandchilren</p></em>
+            <p>Nested elements are elements that have been indented within other elements</p>
+            <h5>Just like a directory</h5>
+            <section>
+                <ol>
+                    <li>Parent Direcory</li>
+                        <ol>
+                            <li>child</li>
+                            <li>child</li>
+                                <ul>
+                                    <li>grandchild</li>
+                                    <li>grandchild</li>
+                                </ul>
+                            <li>child</li>
+                        </ol>
+                </ol>
+            </section>
+            <section>
+                <p><strong>In the example shown above:</strong></p>
+                <p>Notice the grandchild elements are nested inside the child line items, when put next to each other at the same level of indentation, they are considered siblings because their place of birth stems from the same origin. in this case child 2.</p>
+                <p>Just like real relationships, we can make the assertion that child 1, 2, and 3 are also siblings because their place of birth shares the "parent directory" as their origin.</p>
+            </section>
+        </section>
+        <h4>How to Create HTML Comments</h4>
+        <section>
+            <p>HTML comments are used to leave notes for other developers like a set of instructions. They are invisible to the web browser, but able to be seen in an editor.</p>
+            <section>
+                <p>In order to accomplish an html comment we use the triagle brackets to denote the opening and closing of the comment in the exaple below:</p>
+                <section>
+                    <!--This is an HTML comment-->
+                    &lt;!--This is an HTML comment--&gt;
+                    <section><p><em>If you open the browsers inspector you may view the HTML comment in the code</em></p></section>
+                </section>
+            </section>
+        </section>
+    </div>  
 </body>
 </html>
